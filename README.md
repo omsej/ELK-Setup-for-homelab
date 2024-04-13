@@ -7,7 +7,7 @@ Prerequisites:
 2- 
 
 
-#After seting up the free account, follow the prompts to deploy.
+## After seting up the free account, follow the prompts to deploy.
 
 **Watch out! The initial login credentials will be displayed during deployment!! Take note**
 
@@ -24,3 +24,11 @@ Select "Enroll in Fleet" (Default)
 
 Select the OS of the agent host.
 Copy the relevant Bash/Powershell code. (I am using a Ubuntu VM but feel free to use your host PC or any other OS).
+
+Once all files are updated you will see that the fleet dashboard updates with the agent hostname.
+You can select the hostname and you'll see that you are already collecting data and logs on the host.
+
+This is a basic setup that collects some network traffic and logs.
+These tools are most useful when dashboards and data collection are tailored to your needs.
+
+![alt text](https://github.com/omsej/ELK-Setup-for-homelab/blob/main/final.png)
